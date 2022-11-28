@@ -1,0 +1,59 @@
+// @mixin col ($i) {
+//     width: calc(100%/$i);
+//     padding: 0 15px;
+//     box-sizing: border-box;
+// }
+
+
+.cols(@number) {
+    width: calc(100%/12*@number);
+    // @number: 100% = 1 cột, 50%= 2 cột, 33% = 3 cột, 25% = 4 cột
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: @main-font;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container-nav {
+    width: 100%;
+    // padding: 0 15px;
+    box-sizing: border-box;
+}
+.rows {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_4 {
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.col_6 {
+    width: calc(100%/6);
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+

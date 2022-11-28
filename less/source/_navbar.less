@@ -1,0 +1,163 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .container-nav {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        background-color: rgba(41,41,41,0.7);
+        .container {
+            .row_nav {    
+                justify-content: space-between;
+                display: flex;
+                .bar {
+                    display: none;
+                    color: white;
+                    margin: auto 0;
+                    font-size: 20px;
+                }
+                .logo{
+                    width: 15%;
+                    margin: auto 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .main_menu{
+                    width: 60%;
+                    .menu_info{
+                        justify-content: space-evenly;
+                        display: flex;
+                        padding: 30px 0;
+                    }
+                    ul li a{
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 1.75;
+                        text-align: center;
+                    }
+                }
+                .menu_info:hover li {
+                    color: red;
+                }
+                .users{ 
+                    width: 15%;
+                    .users_block{
+                        display: flex;    
+                        padding: 30px 0;
+                        justify-content: space-evenly;
+                    }
+                    ul li a{
+                        text-decoration: none;
+                        line-height: 1.75;
+                        color: #fff;
+                    }
+                    ul li a i{
+                        border-right: 0.7px solid #fff;
+                        padding: 0 8px;
+                    }
+                }
+            }
+            
+        }
+        .menu_bar{
+            display: none;
+            width: 100%;
+            background-color: rgba(41,41,41,0.9);
+            padding: 15px;
+            ul li a{
+                text-decoration: none;
+                font-size: 16px;
+                color: #fff;
+                line-height: 1.75;
+                text-align: center;
+            }
+        }
+    }
+    .slider {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .slider_info {
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        .container{
+            .slider_block {
+                // width: 50%;
+                .slider_title{
+                    display: block;
+                    color: #fff;
+                    h3, h4, p {
+                        margin: 0;
+                    }
+                    h3{
+                        font-size: 60px;
+                        font-weight: bold;
+                    }
+                    h4{
+                        font-size: 37px;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 1.75;
+                    }
+                }
+                .shopnow{
+                    margin-top: 35px;
+                    a{
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        font-weight: 400;
+                        border: 1px solid #fff;
+                        padding: 8px 15px;
+                    }
+                }
+            }
+        }
+    }
+    .streght{
+        width: 100%;
+        position: relative;
+        top: -65px;
+        width: 100%;
+        box-sizing: border-box;
+        .container{
+            .row_streght{
+                display: flex;
+                flex-wrap: wrap;
+                box-shadow: 0px 0px 7px 2px #00000029;
+                .col_streght{
+                    width: calc(100%/3);
+                    text-align: center;
+                    box-sizing: border-box;
+                    background: #fff;
+                    .col_streght_img{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .col_streght_info{
+                        padding: 15px;
+                        h3{
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

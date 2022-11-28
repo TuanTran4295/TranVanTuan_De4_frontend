@@ -1,0 +1,353 @@
+  /* destop responsive layout */
+  @media all and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    .navbar .slider_info {
+        top: 150px;
+    }
+    .navbar .slider_info .container .slider_block {
+        width: 100%;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h3 {
+        font-size: 30px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h4 {
+        font-size: 20px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title p {
+        font-size: 12px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow {
+        margin-top: 15px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow a {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .navbar .streght {
+        top: -40px;
+    }
+}
+
+/* tablet responsive layout */
+@media all and (max-width: 768px) {
+    
+    // start container-nav
+    .navbar .container-nav .container .row_nav .bar {
+        display: block;
+        font-size: 25px;
+    }
+    .navbar .container-nav .container .row_nav .logo {
+        width: 20% ;
+    }
+    .navbar .container-nav .container .row_nav .users {
+        width: 25% ;
+    }
+    .navbar .container-nav .container .row_nav .users .users_block{
+        padding: 17px 0;
+    }
+    .row_nav {
+        justify-content: space-evenly ;
+    }
+    .menu_info {
+        flex-direction: column;
+        text-align: left;
+        background-color: rgba(41,41,41,0.7);
+    }
+    .main_menu {
+        display: none ;
+    }
+    // end container-nav
+
+    // start slider_info
+    .navbar .slider_info {
+        top: 125px;
+        min-height: 300px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h3{
+        font-size: 28px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h4 {
+        font-size: 16px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title p {
+        font-size: 10px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow a {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow {
+        margin-top: 10px;
+    }
+    // end slider_info
+    
+    // start streght
+    .navbar .streght {
+        top: 0px;
+    }
+    .navbar .streght .container .row_streght .col_streght{
+        width: 50%  ;
+    }
+    .navbar .streght .container .row_streght #order {
+        order: 3;
+    }
+    // end streght
+    
+    // start product
+    .main-content .products .container .products_title .title_menu li:first-child {
+        font-size: 14px;
+    }
+    .main-content .products .container .products_title .title_menu li {
+        font-size: 14px;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 {
+        width: calc(100%/3) ;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 .products_info .products_title {
+        font-size: 10px;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 .products_info .products_price {
+        font-size: 10px;
+    }
+    // end product
+    
+    // start about us
+    .main-content .about_us .container .aboutus_detail h3 {
+        font-size: 23px;
+    }
+    .main-content .about_us .container .aboutus_block {
+        padding: 0px 50px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info {
+        padding: 0;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info p {
+        font-size: 15px;
+    }
+    // end about us
+
+    //start brand
+    .main-content .brand .container .row_block .rows .col_6 {
+        width: calc(100%/3);
+    }
+    //end brand
+
+    //start footer
+    .footer .footer_title .footer_logo {
+        padding: 35px 0 10px 0;
+    }
+    .footer .footer_title .footer_message {
+        font-size: 12px;
+    }
+    .footer .container .footer_detail .rows .col_footer .footer_message h4{
+        font-size: 14px;
+    }
+    .footer .container .footer_detail .rows .col_footer ul li {
+        font-size: 12px;
+    }
+    .footer .footer_bottom p {
+        font-size: 14px;
+    }
+    //end footer
+}
+
+/* mobile S responsive layout */
+@media all and (max-width: 425px) {
+    .navbar .slider_info {
+        top: 80px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title p {
+        display: none;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h3 {
+        font-size: 20px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h4 {
+        font-size: 13px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow a {
+        font-size: 8px;
+    }
+    // start product
+    .main-content .products .container .nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+    // end product
+    // start about_us
+    .main-content .about_us .container .aboutus_detail h3 {
+        font-size: 20px;
+    }
+    .main-content .about_us .container .aboutus_block {
+        padding: 0 30px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info {
+        padding: 0;
+        display: flex;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_img .responsive_name_users {
+        display: block;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .aboutus_message {
+        margin-left: 10px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .aboutus_message p {
+        font-size: 10px;
+        margin: 7px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .users_happy, .aboutus_name_users {
+        display: none;
+    }
+    .main-content .about_us .container .slick-dots button {
+        width: 3px;
+        height: 3px;
+        border-radius: 3px;
+    }
+    
+    // end about_us
+}
+
+/* mobile S responsive layout */
+@media all and (max-width: 375px) {
+
+    // start container-nav
+    .navbar .container-nav .container .row_nav .width30 {
+        width: 30% ;
+    } 
+    .navbar .container-nav .container .row_nav .users {
+        width: 15% ;
+    }
+    .navbar .container-nav .container .row_nav .users .users_block {
+        padding: 10px 0;
+    }
+    .navbar .container-nav .container .row_nav .bar {
+        display: block;
+        font-size: 20px;
+        z-index: 5;
+    }
+    // start container-nav
+    
+    // start slider_info
+    .navbar .slider_info {
+        top: 70px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h3{
+        font-size: 14px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title h4 {
+        font-size: 10px;
+    }
+    .navbar .slider_info .container .slider_block .slider_title p {
+        display: none;
+    }
+    .navbar .slider_info .container .slider_block .shopnow a {
+        font-size: 8px;
+        padding: 5px 5px;
+    }
+    .navbar .slider_info .container .slider_block .shopnow {
+        margin-top: 0;
+    }
+    // end slider_info
+
+    // start streght
+    .navbar .streght {
+        top: 0px;
+        min-height: 220px;
+    }
+    .navbar .streght .container .row_streght .col_streght{
+        width: 50%  ;
+    }
+    .navbar .streght .container .row_streght #order {
+        order: 3;
+    }
+    // end streght
+
+    // start product
+    .main-content .web {
+        display: none;
+    }
+    .main-content .mobile {
+        display: block;
+    }
+    .main-content .products .container ul li {
+        font-size: 12px;
+    }
+    .main-content .products .container .nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 {
+        width: calc(100%/2) ;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 .products_info .products_title {
+        font-size: 10px;
+    }
+    .main-content .products .container .tab-content .tab-pane .rows .col_4 .products_info .products_price {
+        font-size: 10px;
+    }
+    // end product
+
+    // start about us
+    .main-content .about_us .container .aboutus_detail h3 {
+        font-size: 19px;
+    }
+    .main-content .about_us .container .aboutus_block {
+        padding: 0 30px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info {
+        padding: 0;
+        display: flex;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_img .responsive_name_users {
+        display: block;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .aboutus_message {
+        margin-left: 10px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .aboutus_message p {
+        font-size: 10px;
+        margin: 7px;
+    }
+    .main-content .about_us .container .aboutus_block .aboutus_info .aboutus_message_item .users_happy, .aboutus_name_users {
+        display: none;
+    }
+    .main-content .about_us .container .slick-dots button {
+        width: 3px;
+        height: 3px;
+        border-radius: 3px;
+    }
+    // end about us
+
+    // start brand
+    
+    .main-content .brand .container .row_block .col_6 {
+        width: calc(100%/3);
+    }
+    // start brand
+
+    // start footer
+    .footer ul {
+        display: none;
+    }
+    .footer .footer_title .footer_logo {
+        width: 30%;
+    }
+    .footer .container .footer_detail .rows .col_footer {
+        width: 50%;
+    }
+    .footer .container .footer_detail .rows .col_footer:hover ul{
+        display: block;
+    }
+    .footer .container .footer_detail .rows .col_footer .footer_message h4{
+        font-size: 10px;
+    }
+    .footer .footer_bottom p {
+        font-size: 10px;
+    }
+    // end footer
+
+    
+}
